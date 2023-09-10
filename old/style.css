@@ -1,0 +1,48 @@
+.blog-title{
+    color:white;
+    background: aqua;
+}
+.p_10{
+    padding: 10px;
+}
+.p_20{
+    padding:20px;
+}
+
+#helloworld{
+    background-color: aqua;
+    color: white;
+}
+
+.blog{
+    background-image: url('./img/download.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.divOne{
+    width:300px;
+    height: 400px;
+    background: tomato;
+    display: inline-block;
+}
+
+.divTwo{
+    width: 300px ;
+    height: 400px;
+    background: green;
+    display: inline-block;
+}
+.hulk{
+    background-color: grey;
+    padding: 47px 35px 43px 55px;
+    position: relative;
+    top:45px;
+}
+
+
+
+
+
