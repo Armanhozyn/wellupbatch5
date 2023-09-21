@@ -1,0 +1,98 @@
+/* .pra1{
+    background-color: red;
+    width:300px;
+    display: inline-block;
+
+}
+.pra2{
+    background-color: yellow;
+    width:300px;
+    display: inline-block;
+} */
+/* 
+.parent{
+    width:500px;
+    height:500px;
+    background-color: gray;
+    position: relative;
+}
+
+.child{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+.item{
+    padding:18px;
+    width:600px;
+    height: 300px;
+    border:1px solid gray;
+
+}
+
+
+.itemOne{
+    background: red;
+    float: left;
+}
+.itemTwo{
+    background: blue;
+    float: left;
+}
+.itemThree{
+    background: green;
+    clear:both;
+}
+
+
+.wrapper{
+    padding: 18px;
+    background: aqua;
+    border: 1px solid #000;
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+    overflow: scroll;
+    overflow: auto;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding: 14px;
+    border: 1px solid gray;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.btn:hover{
+    background: white;
+    color: black
+} */
+
+
+
+
+.wrapper{
+    width: 900px;
+    height: 900px;
+    margin: 20px auto;
+    background: gray;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item{
+    width: 200px;
+    height: 200px;
+    background: green;
+    border: 1px solid #000;
+}
+
