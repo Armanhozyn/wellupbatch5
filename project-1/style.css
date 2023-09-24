@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #eee;
+}
+
+.wrapper{
+    width: 1080px;
+    margin: 0 auto;
+    background: #c095954f;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+    gap: 18px;
+}
+
+.banner{
+    background: url('./image/banner.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
