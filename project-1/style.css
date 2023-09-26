@@ -35,3 +35,21 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.content_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    width: 700px;
+}
+
+.sidebar{
+    width: 480px
+}
+
+footer{
+    text-align: center;
+    background: #6151514f;
+}
