@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(143, 123, 163);
+}
+.wrapper{
+    width: 1080px;
+    margin: 0 auto;
+    background: azure;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+    gap: 18px;
+}
+.banner{
+    background: url(./images.jfif);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    width: 700px;
+}
+.sidebar{
+    width: 380px;
+}
+footer{
+    text-align: center;
+    background: gray;
+    padding: 10px;
+}
+.defult_padding{
+    padding: 12px 20px;
+}
+.nav li{
+    background: white;
+    padding: 10px;
+    font-weight: bold;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.nav li:hover{
+    background: red;
+    color: azure;
+}
+.bannercontent{
+    background: rgb(17, 17, 17);
+    color: rgb(229, 229, 229);
+    padding: 10px 15px;
+    width: 500px;
+}
+.bannercontent h2{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.bannercontent p{
+    font-size: 25px;
+    margin-bottom: 12px;
+
+}
+.bannercontent button{
+    background-color: beige;
+    color: black;
+    border: 1px solid black;
+    padding: 12px 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+}
+.bannercontent button:hover{
+    background: red;
+    color: azure;
+}

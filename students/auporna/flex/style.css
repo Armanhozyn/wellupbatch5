@@ -1,0 +1,25 @@
+.wrapper{
+    width: 600px;
+    height: 700px;
+    background-color:cadetblue;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.item{
+    background-color: bisque;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.item1{
+    align-self: flex-start;
+}
+.item3{
+    align-self: flex-end;
+}

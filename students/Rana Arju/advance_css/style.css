@@ -8,7 +8,7 @@
 }
 .section-title::after{
   content: '';
-  border-bottom: 3px solid #279eff;
+  border-bottom: 3px solid tomato;
   width: 100px;
   display: block;
   position: relative;
@@ -33,7 +33,7 @@
 .child {
   width: 80px;
   height: 30px;
-  background-color: #279eff;
+  background-color: tomato;
   border-radius: 8px;
   display: inline-block;
   color: #fff;
@@ -60,7 +60,7 @@
   padding-left: 10px;
 }
 .btn {
-  background-color: #279eff;
+  background-color: tomato;
   color: #fff;
   padding: 8px;
   outline: none;

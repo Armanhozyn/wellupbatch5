@@ -1,0 +1,26 @@
+.wrapper{
+    width: 600px;
+    height: 600px;
+    background-color: gray;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    
+   
+}
+.box{
+    height: 150px;
+    width: 150px;
+    background: tomato;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    display: grid;
+    
+}

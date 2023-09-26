@@ -1,0 +1,48 @@
+.item{
+    padding: 18px;
+    width: 30%;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.itemOne{
+    background-color: aliceblue;
+    float: left;
+    /* margin-right: 10px;
+    margin-bottom: 10px; */
+    margin-right: 1%;
+}
+.itemTwo{
+    background-color: antiquewhite;
+    float: left;
+    margin-right: 1%;
+}
+.itemThree{
+    background-color: rgb(234, 231, 227);
+    /* clear: both; */
+    float:right;
+}
+
+.wrapper{
+    padding: 18px;
+    width: 600px;
+    height: 400px;
+    background-color: aqua;
+    border: 1px solid black;
+    margin: 0 auto;
+    overflow: auto;
+    /* overflow-y: scroll; */
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+.btn:hover{
+    background-color: aqua;
+    color: black;
+}
