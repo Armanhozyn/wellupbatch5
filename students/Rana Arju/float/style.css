@@ -1,0 +1,49 @@
+.item{
+    padding: 18px;
+    width: 30%;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+.itemOne{
+    background: aliceblue;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 1%;
+}
+.itemTwo{
+    background: #eee;
+    float: left;
+    margin-right: 1%;
+
+   
+}.itemThree{
+    background: ghostwhite;
+    float: left;
+
+}
+.wrapper{
+    padding: 18px;
+    background: aqua;
+    border: 1px solid tomato;
+    width: 600px;
+    margin: 50px auto;
+    border-radius: 10px;
+    height: 300px;
+    overflow-y: auto;
+}
+.btn{
+    padding: 10px;
+    border-radius: 20px;
+    background: tomato;
+    border: 1px solid tomato;
+    color: #fff;
+    cursor: pointer;
+    transition: all .4s ease-in;
+
+
+}
+.btn:hover{
+    color: tomato;
+    background: white;
+    border: 1px solid tomato;
+}
