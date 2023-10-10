@@ -37,17 +37,10 @@ body{
     align-items: center;
 }
 
-.content_wrapper{
-    display: flex;
-    justify-content: space-between;
-}
 
-.content{
-    width: 700px;
-}
 
 .sidebar{
-    width: 480px
+    width: 280px;
 }
 
 footer{
@@ -101,4 +94,33 @@ footer{
 
 .banner_content button:hover{
     background-color: #000;
+}
+
+.content_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.item{
+    width: 330px;
+    background: #171717;
+    color: #fff;
+    margin: 10px;
+    padding: 20px
+}
+
+.sidebar ul{
+    list-style: none;
+}
+.sidebar ul li{
+    background: #171717;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 10px;
 }

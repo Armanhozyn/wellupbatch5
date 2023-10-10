@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Design</title>
+
+    <style>
+        .wrap{
+            /* width: 30%; */
+            width: 600px;
+            height: 500px;
+            /* margin-right: 3.33%; */
+            margin-right: 20px;
+            background:green;
+            float: left;
+            /* display: inline-block; */
+        }
+
+        @media (max-width:451px){
+            .wrap{
+                background: red;
+                width: 100%;
+                margin-top: 3.33%
+            }
+        }
+
+        @media (min-width: 451px) and (max-width:768px){
+            .wrap{
+                background: yellow;
+                width: 400px;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, debitis nihil sed voluptas quisquam facilis nemo libero consequatur aliquam iusto!</p>
+    </div>
+
+    <div class="wrap">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, debitis nihil sed voluptas quisquam facilis nemo libero consequatur aliquam iusto!</p>
+    </div>
+
+
+    <div class="wrap">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, debitis nihil sed voluptas quisquam facilis nemo libero consequatur aliquam iusto!</p>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+</html>
