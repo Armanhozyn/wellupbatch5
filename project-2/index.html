@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Demo Project</title>
     <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
 
     <!-- Header Top start Here -->
     <header>
         <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-md-12 text-center bg-dark text-white py-2">
                 <img height="14px" src="https://rafusoft.com/assets/frontend/img/flag-icon/bangladesh.svg" alt="">
                 <span>+01867090247</span>
             </div>
@@ -21,39 +24,44 @@
     <!-- Header Top Stop Here -->
 
     <!-- Navbar Start Here -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary nav-section">
         <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <a class="navbar-brand" href="#">Wellup</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
                 </ul>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                </li>
-            </ul>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
             </div>
         </div>
     </nav>
@@ -63,14 +71,15 @@
     <!-- Banner Start Here -->
     <section id="banner">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-md-6">
                     <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, debitis?</h1>
                     <h5>Lorem ipsum dolor sit amet consectetur.</h5>
-                    <a href="#" class="btn btn-primary">Try Free</a>
+                    <a href="#" class="btn btn-primary btn-core">Try Free</a>
                 </div>
                 <div class="col-md-6">
-                    <img src="https://rspos.be/assets/images/pos-system-bd.png" class="img-fluid" alt="pos-system image">
+                    <img src="https://rspos.be/assets/images/pos-system-bd.png" class="img-fluid"
+                        alt="pos-system image">
                 </div>
             </div>
         </div>
@@ -78,7 +87,7 @@
     <!-- Banner stop Here -->
 
     <!--  Feature Section Start -->
-    <section id="feature">
+    <section id="feature" class="mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-md-4 col-lg-2">
@@ -111,7 +120,102 @@
     <!--  Feature Section Stop -->
 
 
+    <section class="feature-large-section mt-5">
+        <h1 class="text-center mb-5">The smart way to <br>Manage Your Business!</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="feature-large-inner">
+                        <div class="icon-box-fea">
+                            <img src="https://www.eposdirect.co.in/pub/media/wysiwyg/inventory-mange.png"
+                                alt="inventory-mange">
 
+                        </div>
+                        <div class="feature-large-info">
+                            <h4>Qpos</h4>
+                            <p>Explore our Qpos page to discover a feature-rich POS software designed to streamline your
+                                business operations. Enhance sales, manage inventory, and provide a seamless customer
+                                experience with Qpos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="feature-large-inner">
+                        <div class="icon-box-fea">
+                            <img src="https://www.eposdirect.co.in/pub/media/wysiwyg/dashboard_1.png" alt="dashboard_1">
+                        </div>
+                        <div class="feature-large-info">
+                            <h4>Report</h4>
+                            <p>our comprehensive report page. Gain in-depth knowledge about stock, categories, brands,
+                                taxes, expenses, customers, vendors, and daily/monthly sales and purchases to make
+                                informed decisions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="feature-large-inner">
+                        <div class="icon-box-fea">
+                            <img src="https://www.eposdirect.co.in/pub/media/wysiwyg/omni-ready.png" alt="omni-ready">
+                        </div>
+                        <div class="feature-large-info">
+                            <h4>Todays summery</h4>
+                            <p>Monitor all your daily business purchases, sales and other operations, track inventory
+                                and evaluate performance at a glance. Stay informed and in control with real-time
+                                insights.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="btn-sec-edpro text-center">
+            <a href="#">
+                <button class="btn btn-primary btn-core">
+                    See Plan
+                    <i class="ms-2 fa-solid fa-greater-than"></i>
+                </button>
+            </a>
+        </div>
+    </section>
+
+
+    <section id="retail-home" class="mt-5">
+        <div class="row g-0">
+            <div class="col-md-6">
+                <div class="retail-mg h-100">
+                    <img src="https://rspos.be/assets/images/retail-billing-software-pos.jpg" alt="" class="img-fluid object-fit-cover h-100">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="retail-home-content p-5 bg-secondary">
+                    <h1>This software handles pos, invoicing, and billing.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum illum obcaecati blanditiis accusamus earum ad explicabo nam expedita quasi hic placeat quos facilis, ullam nemo dolores tenetur architecto porro animi inventore ipsum. Odit, officia deserunt repellat reprehenderit qui consectetur! Aspernatur, voluptatum aliquid reprehenderit magnam sapiente, cupiditate, molestias sequi omnis tenetur distinctio maiores consectetur. Adipisci excepturi suscipit, quibusdam ipsum molestiae est veniam debitis nulla quidem quasi odit cumque nam? Maiores dolorem possimus culpa voluptatem eaque ullam fuga qui ex, sequi corrupti quia cupiditate blanditiis. Vitae nulla unde, recusandae corrupti excepturi consectetur corporis ullam dignissimos tempore libero adipisci iste omnis sed quo beatae error quas? Minus praesentium dolor sapiente fugit numquam rerum esse perspiciatis minima voluptatum. Numquam amet illo architecto velit enim doloremque aliquam tenetur et corrupti veniam, voluptates laboriosam autem soluta cum possimus commodi omnis reprehenderit beatae, voluptatibus repudiandae accusantium officia? Recusandae fugiat vel corrupti facere numquam dolorum. Et vero debitis repudiandae distinctio possimus dignissimos facere maxime magnam mollitia aliquid quae quaerat dolores, sed dolor inventore aliquam beatae ut, soluta cumque commodi illo, consequatur id.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-dark text-white">
+        <div class="container">
+            <div class="footer-copyright">
+                <div class="row align-items-center py-2">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="copyright-text">© 2023 rspos.be, All Rights Reserved
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <ul class="copyright-payment">
+                            <li class="title">Secure payment&nbsp;</li>
+                            <li>
+                                <img class="img-fluid" src="https://rspos.be/assets/images/frontend/bkash.jpg" style="width:100px" alt="bks-nagad">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
 
 
 
@@ -120,4 +224,5 @@
 
     <script src="./js/bootstrap.js"></script>
 </body>
+
 </html>
