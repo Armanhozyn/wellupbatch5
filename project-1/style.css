@@ -96,6 +96,23 @@ footer{
     background-color: #000;
 }
 
+<<<<<<< HEAD
+.content{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.item{
+    background-color: #171717;
+    color: #fff;
+    /* width: 300px; */
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    /* flex-flow: row wrap; */
+}
+=======
 .content_wrapper{
     display: flex;
     justify-content: space-between;
@@ -124,3 +141,4 @@ footer{
     padding: 20px;
     margin-bottom: 10px;
 }
+>>>>>>> ce6b5d784a51554e9fe0736ab4bdc7d969abd76e
