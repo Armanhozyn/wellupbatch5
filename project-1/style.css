@@ -102,3 +102,19 @@ footer{
 .banner_content button:hover{
     background-color: #000;
 }
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.item{
+    background-color: #171717;
+    color: #fff;
+    /* width: 300px; */
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    /* flex-flow: row wrap; */
+}
