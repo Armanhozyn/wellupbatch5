@@ -36,23 +36,6 @@
         // console.log("Hello Bangladeesh");
         
 
-        var countryName = prompt("Please enter description");
-
-        // textValidation(countryName,60)
-
-        if(countryName.length >= 5){
-            var msg = "You have entered equal or more than 5 character";
-            alert(msg);
-            console.log(msg)
-
-        }else{
-
-            var msg = 'You have entered less than 5 character';
-            alert(msg);
-            console.log(msg)
-        }
-
-
 
 
 
@@ -72,17 +55,6 @@
         // makingSum();
 
 
-        function makingSum(numOne,numTwo){
-
-
-            var sum = numOne + numTwo;
-
-            console.log(sum);
-        } // Defination
-
-        makingSum(20,30); // Calling Function
-        makingSum(50,60);
-        // makingSum();
         
 
 
@@ -90,6 +62,70 @@
 
         // console.log(countryName,countryName.length);
 
+
+
+        // textValidation(countryName,60)
+
+
+
+        // function checkTextLength(countryName,textLength){
+        //     if(countryName.length >= textLength){
+        //         var msg = "You have entered equal or more than " + textLength + " character";
+        //         alert(msg);
+        //         console.log(msg)
+
+        //     }else{
+
+        //         var msg = 'You have entered less than ' + textLength  + ' character';
+        //         alert(msg);
+        //         console.log(msg)
+        //     }
+        // }
+
+        
+        
+        
+        // checkTextLength(countryName,10)
+
+
+
+        function makingSum(numOne,numTwo){
+            var sum = numOne + numTwo;
+
+            return sum;
+        } // Defination
+
+        var result = makingSum(20,30); // Calling Function
+
+        // console.log(result);
+        // makingSum();
+
+
+        var resultTwo = makingSum(40,80);
+        // console.log(resultTwo);
+        
+        
+        // var countryName = prompt("Please enter description");
+
+
+
+
+        var myShopping = ['pen','ice cream', 'churi','hello'];
+        
+        console.log(myShopping);
+        console.log(myShopping[0]);
+        console.log(myShopping[1]);
+        console.log(myShopping[2]);
+
+        console.log(myShopping.length);
+     
+        for (let i = 0; i < myShopping.length; i++) {
+            const element = myShopping[i];
+
+            console.log(element);
+        }
+        
+        
 
 
 
